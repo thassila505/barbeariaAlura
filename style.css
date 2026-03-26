@@ -6,6 +6,7 @@ body {
     background: #CCCCCC
     pedding: 30px;
 }
+
 .itens{
     font-style: italic;
 }
@@ -13,9 +14,11 @@ body {
     background: #ffffff;
     padding: 20px;
 }
+
 h2{
     text-align: center;
 }
+
 ul{
     display: inline-block;
     vertical-align: top;
@@ -50,6 +53,7 @@ em strong {
 .titulo-principal{
     pedding-left: 20px:
 }
+
 .titulo-centralizado{
     text-align: center;
 }
