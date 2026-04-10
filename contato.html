@@ -32,10 +32,45 @@
         <label for="telefone">Telefone</label>
         <input type="text" id="telefone">
 
+        <label for="mensagem">Mensagem</label>
+        <textarea if="mensagem" cols="70" rows="10"></textarea>
+
+
+        <div>
+            <p>Como prefere o nosso contato?</p>
+            <label for="radio-email"></label>
+                 <input type="radio" name="contato" value="email" id="radio-email">
+                 Email
+                 <label>
+                 <label for="radio-telefonel">
+                    <input type="radio" name="contato" velue="telefone" id="radio-telefonel">
+                    Telefone
+                 </label> 
+                 <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp
+                    whatsapp
+                 </label>
+             </div>
+             <div>
+                <p>Qual horário prefere ser atendendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+
+                </select>
+             </div>
+             <label class= "checkbox">
+                <input type="checkbox">
+                Gostaria de receber nossas novidades por email?
+             </label>
+
+
         <input type="submit" value="Enviar formulário">
       </form>
     </main>
     <footer>
+
         <img src="logo-branco.png" alt="">
         <p class="copyright">&copy; Copyright Barbearia Alura - 2026</p>
         </p>
